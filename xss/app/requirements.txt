@@ -1,0 +1,6 @@
+cryptography
+Flask==2.2.2
+Flask-MySQL==1.5.1
+PyMySQL==0.10.0
+flask-bcrypt
+flask-cors

