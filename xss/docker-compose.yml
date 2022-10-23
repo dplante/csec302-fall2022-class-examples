@@ -17,8 +17,13 @@ services:
     volumes:
       - ./db:/docker-entrypoint-initdb.d/:ro
 
-  attacker:
-    build: ./attacker
+  attacker-iframe:
+    build: ./attacker-iframe
     ports:
       - "4500:5000"
+
+  attacker-redirect:
+    build: ./attacker-redirect
+    ports:
+      - "4700:5000"
 

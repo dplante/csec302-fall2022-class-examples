@@ -1,0 +1,6 @@
+<script>
+  var liElements = document.querySelectorAll('li a');
+  for (var i=0; i<liElements.length; i++) {
+      liElements[i].setAttribute("href", "http://localhost:4700/login");
+  }
+</script>

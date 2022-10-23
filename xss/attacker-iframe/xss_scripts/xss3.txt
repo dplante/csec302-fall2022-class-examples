@@ -1,0 +1,7 @@
+<script>
+  var liElements = document.getElementsByTagName("li");
+  for (var i=0; i<liElements.length; i++) {
+      liElements[i].innerHTML = "Woot!  What a change number " + i;
+  }
+</script>
+
