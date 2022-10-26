@@ -1,7 +1,0 @@
-<script>
-function change() {
-  var vulnerable = document.getElementById("myCarousel");
-  vulnerable.innerHTML = "Woot!  What a change!";
-}
-</script>
-<button onclick="change()">Attack!</button>
