@@ -6,3 +6,5 @@ _.processNested(some_obj);
 other_obj = {}
 console.log(polluted); // true!
 console.log(other_obj.polluted); // true!
+
+
