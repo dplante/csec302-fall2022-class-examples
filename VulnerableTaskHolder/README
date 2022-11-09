@@ -1,0 +1,6 @@
+/*
+ * Go to the "src" folder and run the following to compile and execute:
+ *     javac -cp . org/dummy/insecure/framework/*.java
+ *     java -cp . org/dummy/insecure/framework/Main
+ */
+
