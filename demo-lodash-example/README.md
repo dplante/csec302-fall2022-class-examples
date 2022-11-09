@@ -16,4 +16,4 @@ To really understand prototypes in Javascript, the advanced official documentati
 # Walkthrough
 There are two directories, `lodash-demo` and `lodash-demo-fix` which just have the `package.json` files that install a vulnerable version of *lodash* and a fixed version in the two directories.
 
-To understand the broken then fixed versions, copy the three files `attack1.json`, `attack2.json`, and `attack3.json` files into both directories.  Run this in *Visual Studio Code* with the debugger to step INTO the modules in `node-modules` and see the before and after versions of the code. 
+To understand the broken then fixed versions, copy the three files `attack1.json`, `attack2.json`, and `attack3.json` files into both directories.  Also, you need to run `npm i` to install the `node-modules` with the support libraries. You need to run this command in both the `lodash-demo` and `lodash-demo-fix` directories. Run the attack codes in *Visual Studio Code* with the debugger to step INTO the modules in `node-modules` and see the before and after versions of the code. 
